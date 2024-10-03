@@ -42,6 +42,8 @@ sidebar_position: 6
 
 ### 升级制vip
 
+<!--markdownlint-disable line-length-->
+
 ```yaml
   'A':
     display:
@@ -64,6 +66,8 @@ sidebar_position: 6
           all:
             - 'command inline "lp user {{player name}} permission set rank.vip true" as console {condition=check papi %vault_eco_balance% >= 10}'
 ```
+
+<!--markdownlint-enable line-length-->
 
 用权限的好处是适用性广，不过对op不太方便，因为op所有权限都是true嘛
 
